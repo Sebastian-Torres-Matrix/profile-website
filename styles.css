@@ -1,0 +1,86 @@
+ :root {
+        --primary: #fff;
+    }
+
+    * {
+        font-family: Montserrat;
+    }
+
+    body {
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .centered {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .full-height {
+        height: 100%;
+    }
+
+    .spacer-y {
+        margin: 20px 0;
+    }
+
+    .upper {
+        text-transform: uppercase;
+    }
+
+    .bold {
+        font-weight: 500;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .cv-btn {
+        margin-left: 44px; 
+    }
+
+    button {
+        min-width: 180px;
+        padding: 15px 20px;
+        border: none;
+        font-size: 24px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .neumorph-btn {
+        box-shadow: 6px 6px 16px #d1cdc7, -6px -6px 16px #fff;
+        border-radius: 12px;
+        background-color: transparent;
+        color: var(--primary);
+        transition: all 200ms;
+    }
+
+    .neumorph-btn:hover {
+        box-shadow: 9px 9px 16px #d1cdc7, -6px -6px 16px #fff;
+        transition: all 200ms;
+    }
+
+    /*
+     background-color: var(--primary);
+        color: #fff;
+        transition: all 200ms;
+        */
+
+.img-profile {
+  box-shadow: 0px 11px 20px 1px rgba(0,0,0,0.75);
+  margin: 0 0 3rem 0;
+  background-color: rgba(255,255,255,0);
+  max-width: 350px;
+  max-height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
